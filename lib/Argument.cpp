@@ -1,11 +1,9 @@
-//
-// Created by sigris on 15.01.2024.
-//
-
 #include "Argument.h"
 #include "ArgParser.h"
+#include "utility"
+
 using var = std::variant<int, bool, std::string>;
-#include <utility>
+
 namespace ArgumentParser {
     Argument::Argument(std::string argument_name)
             : argument_long_name_(std::move(argument_name))
