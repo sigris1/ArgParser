@@ -1,10 +1,6 @@
-//
-// Created by sigris on 15.01.2024.
-//
-
 #pragma once
 
-#include <string>
+#include "string"
 
 using var = std::variant<int, bool, std::string>;
 
