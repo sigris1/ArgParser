@@ -1,7 +1,3 @@
-//
-// Created by sigris on 19.01.2024.
-//
-
 #include "string"
 #include "ArgParser.h"
 #include "iostream"
